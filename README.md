@@ -1,6 +1,6 @@
 # RafalkesikPalindrome
 
-rafalkesik_palindrome_ruby is a sample Ruby gem created in [Learn Enough Ruby to Be Dangerous](https:learnenough.com) by Michael Hartl.
+```rafalkesik_palindrome_ruby``` is a sample Ruby gem created in [Learn Enough Ruby to Be Dangerous](https:learnenough.com) by Michael Hartl.
 
 ## Installation
 
