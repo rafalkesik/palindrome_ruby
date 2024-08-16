@@ -19,9 +19,12 @@ Or install it directly using ```gem```:
     $ gem install rafalkesik_palindrome
 
 ## Usage
+The Module adds 2 methods to String objects and 1 of them to Integer objects:
 
 ```String.palindrome?``` checks if a string, is a palindrome.
+
 ```Integer.palindrome?``` the same, but for Integers.
+
 ```String.blank?``` checks if a string has anything but whitespace, or is empty.
 ## Development
 
