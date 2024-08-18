@@ -27,4 +27,14 @@ class RafalkesikPalindromeTest < Minitest::Test
   def test_integer_non_palindrome
     refute 12345.palindrome?
   end
+
+  def test_whitespace_non_palindrome
+    refute " ".palindrome?
+    # .match?(/\s/)
+  end
+
+  def test_empty_non_palindrome
+    refute "".palindrome?
+    # .empty?
+  end
 end

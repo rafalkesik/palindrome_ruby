@@ -1,12 +1,16 @@
-# frozen_string_literal: true
-
 require_relative "rafalkesik_palindrome/version"
 
 
 module RafalkesikPalindrome
     # Returns true for a palindrome, false otherwise.
     def palindrome?
-        processed_content == processed_content.reverse
+        if self.to_s.empty?
+            false
+        elsif self.to_s.match?(/\A\s+\z/)
+            false
+        else
+            processed_content == processed_content.reverse
+        end
     end
   
     private
